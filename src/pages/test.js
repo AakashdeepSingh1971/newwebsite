@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
-export default function text() {
+export default function Noman() {
     const [show, setshow] = useState(false)
     return (
         <div>

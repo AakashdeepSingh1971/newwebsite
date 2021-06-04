@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { getReference, setPost } from "./api/_firebase";
 import moment from 'moment';
-
+import Noman from './test'
 
 export default function Home() {
 
@@ -29,16 +29,16 @@ export default function Home() {
   return (
     <div className="bg-cover bg-gray-900 " >
       <div > <h1 className="text-center  bg-green-300 text-8xl pt-5" style={{fontFamily:'Lobster, cursive'}} > Blogs </h1>
-      {/* <h6 className="text-center  bg-gradient-to-r from-purple-600 via-purple-500 to-purple-300 text-8xl pt-5" style={{fontFamily:'Lobster, cursive'}}></h6>*/}
+      <h6 className="text-center bg-green-300  text-8xl pt-5" style={{fontFamily:'Lobster, cursive'}}></h6>
       </div>
-      {/* <div className="flex flex-row space-x-8 pl-10 pb-5  w-full bg-green-500" >
-        <h6>helo</h6>
-        <h6>helo</h6>
-        <h6>helo</h6>
-        <h6>helo</h6>
-        <h6>helo</h6>
-        <h6>helo</h6>
-      </div> */}
+      <div className="flex flex-row space-x-8 pl-10 pb-5  w-full bg-green-300" >
+        <h6>link</h6>
+        <h6>link</h6>
+        <h6>link</h6>
+        <h6>link</h6>
+        <h6>link</h6>
+        <h6>link</h6>
+      </div>
 
       <Head>
         <title>NextWind</title>
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
       <div className="bg-green-300
        text-center ">
-          <h3>dfsfsdfsdf</h3>
+          <h3>BY-Team Technophiles</h3>
       </div>
     </div>
   );
